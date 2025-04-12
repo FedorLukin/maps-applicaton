@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>540</width>
+    <height>690</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {background-image: url(src/background.jpg);}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="image">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>500</width>
+      <height>500</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="getmap">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>637</y>
+      <width>231</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>получить карту</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="latitude">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>537</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="longitude">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>567</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>539</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>широта:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>569</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>долгота:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>600</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>масштаб:</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="zoom">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>597</y>
+      <width>151</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="maximum">
+     <number>20</number>
+    </property>
+    <property name="value">
+     <number>5</number>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -12,7 +12,7 @@ class Application(QMainWindow):
         load_dotenv()
         self.apikey = os.getenv('APIKEY')
         super().__init__()
-        uic.loadUi('src/maps1.ui', self)
+        uic.loadUi('src/maps.ui', self)
         self.setFixedSize(540, 690)
         self.setWindowIcon(QIcon('src/icon.png'))
         self.image.setPixmap(QPixmap.fromImage(QImage('src/logo.png')))
