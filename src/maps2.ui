@@ -26,6 +26,9 @@
       <height>450</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -33,9 +36,9 @@
    <widget class="QPushButton" name="getmap">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>637</y>
-      <width>231</width>
+      <x>220</x>
+      <y>630</y>
+      <width>161</width>
       <height>24</height>
      </rect>
     </property>
@@ -49,27 +52,27 @@
    <widget class="QLineEdit" name="latitude">
     <property name="geometry">
      <rect>
-      <x>230</x>
+      <x>220</x>
       <y>537</y>
-      <width>151</width>
+      <width>161</width>
       <height>21</height>
      </rect>
     </property>
     <property name="text">
-     <string>55.995075</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLineEdit" name="longitude">
     <property name="geometry">
      <rect>
-      <x>230</x>
+      <x>220</x>
       <y>567</y>
-      <width>151</width>
+      <width>161</width>
       <height>21</height>
      </rect>
     </property>
     <property name="text">
-     <string>92.795433</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -123,9 +126,9 @@
    <widget class="QSpinBox" name="zoom">
     <property name="geometry">
      <rect>
-      <x>230</x>
+      <x>220</x>
       <y>597</y>
-      <width>151</width>
+      <width>161</width>
       <height>22</height>
      </rect>
     </property>
@@ -139,7 +142,7 @@
      <number>20</number>
     </property>
     <property name="value">
-     <number>5</number>
+     <number>12</number>
     </property>
    </widget>
    <widget class="QPushButton" name="theme">
@@ -164,11 +167,27 @@
       <x>150</x>
       <y>510</y>
       <width>231</width>
-      <height>20</height>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
      <string>Введите адрес или координаты объекта</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clear">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>630</y>
+      <width>55</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#e2393a; color: white</string>
+    </property>
+    <property name="text">
+     <string>сброс</string>
     </property>
    </widget>
   </widget>
